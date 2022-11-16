@@ -4,7 +4,7 @@
   // .then((response)=>response.json())
   // .then((data) => console.log(data.data))
   // .catch((error)=> console.log('error : ' + error))
-
+  import axios from "axios";
   let url = 'https://dummyjson.com/products'
   // fetch(url+'/1')
   //             .then(res=>res.json())
